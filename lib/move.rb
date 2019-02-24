@@ -8,5 +8,6 @@ end
 
 # code your input_to_index and move method here!
 
-def input_to_index(position)
-  input.to_s
+def input_to_index(input)
+  input = input.to_s + 1
+end
